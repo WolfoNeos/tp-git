@@ -1,5 +1,5 @@
 def moyenne(notes):
-    return round(sum(notes) / len(notes), 1)
+    return sum(notes) / len(notes)
 
 
 notes = [12, 15, 9, 17]
